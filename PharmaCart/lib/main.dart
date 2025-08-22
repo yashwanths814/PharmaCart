@@ -9,7 +9,7 @@ void main() {
           backgroundColor: Colors.teal, // set AppBar background color
         ),
         body: Center(
-          child: Text("Developed by INYA!", style: TextStyle(fontSize: 18)),
+          child: Text("Developed by INYA!!", style: TextStyle(fontSize: 18)),
         ),
       ),
     ),
