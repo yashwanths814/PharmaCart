@@ -10,7 +10,16 @@ The app is designed to be **secure, user-friendly, and accessible** for both cus
 -**User Authentication** (Sign Up,Login,Forgot Password)
 -**Product Search And Filters** (by name, category, brand, price, prescription required, etc.)
 -**Medicine Detail page** (dosage, side effects, precautions, availability)
+-**Shopping Cart and Whilist**
+-**Prescription Upload** (for restricted drug)
+-**Secure Checkout and Multiple Payment Options**
+-**Order Tracking** (real-time updates)  
+-**Discount and Coupons**
+-**Responsive UI**
 
 ---
+
+### ⚙️ Admin Features 
+
 
 ### Devopled by INYA
