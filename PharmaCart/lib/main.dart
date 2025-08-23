@@ -17,7 +17,9 @@ void main() {
           ),
           backgroundColor: Colors.teal, // set AppBar background color
         ),
-        body: Center(child: Image(image: AssetImage('images/logo.png'))),
+        body: Center(
+          child: Image.asset('images/logo.png', width: 250, height: 250),
+        ),
       ),
     ),
   );
