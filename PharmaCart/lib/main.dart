@@ -17,13 +17,7 @@ void main() {
           ),
           backgroundColor: Colors.teal, // set AppBar background color
         ),
-        body: Center(
-          child: Image(
-            image: NetworkImage(
-              'https://media.designrush.com/inspirations/549119/conversions/Pharma-preview.jpg',
-            ),
-          ),
-        ),
+        body: Center(child: Image(image: AssetImage('images/logo.png'))),
       ),
     ),
   );
