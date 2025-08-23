@@ -5,11 +5,24 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Center(child: Text("PharmaCart")),
+          title: Center(
+            child: Text(
+              "PharmaCart",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                fontSize: 25,
+              ),
+            ),
+          ),
           backgroundColor: Colors.teal, // set AppBar background color
         ),
         body: Center(
-          child: Text("Developed by INYA!!", style: TextStyle(fontSize: 18)),
+          child: Image(
+            image: NetworkImage(
+              'https://media.designrush.com/inspirations/549119/conversions/Pharma-preview.jpg',
+            ),
+          ),
         ),
       ),
     ),
