@@ -6,6 +6,7 @@ The app is designed to be **secure, user-friendly, and accessible** for both cus
 ---
 
 ## ✨ Features:
+
 ### 🛒 Customer Features
 -**User Authentication** (Sign Up,Login,Forgot Password)
 -**Product Search And Filters** (by name, category, brand, price, prescription required, etc.)
