@@ -19,7 +19,14 @@ The app is designed to be **secure, user-friendly, and accessible** for both cus
 
 ---
 
-### ⚙️ Admin Features 
+
+### ⚙️ Admin Features  
+- **Admin Dashboard** (sales overview, active users, stock status)  
+- **Product Management** (add, update, delete medicines/products)  
+- **Inventory Management** (track stock, set alerts for low stock)  
+- **Order Management** (view, confirm, cancel orders)  
+- **User Management** (manage customers, doctors, delivery agents)  
+- **Analytics & Reports**  
 
 
 ### Devopled by INYA
