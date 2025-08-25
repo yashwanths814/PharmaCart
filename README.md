@@ -27,7 +27,14 @@ The app is designed to be **secure, user-friendly, and accessible** for both cus
 - **Inventory Management** (track stock, set alerts for low stock)  
 - **Order Management** (view, confirm, cancel orders)  
 - **User Management** (manage customers, doctors, delivery agents)  
-- **Analytics & Reports**  
+- **Analytics & Reports**
+
+  ---
+
+  ### 🔐 Security  
+- Role-based authentication (User / Admin)  
+- Secure payment gateway integration  
+- Encrypted storage for sensitive data  
 
 
 ### Devopled by INYA
