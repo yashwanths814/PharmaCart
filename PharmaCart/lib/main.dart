@@ -15,7 +15,7 @@ void main() {
               ),
             ),
           ),
-          backgroundColor: Colors.teal, // set AppBar background color
+          backgroundColor: Colors.teal, // set AppBar bg color
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
