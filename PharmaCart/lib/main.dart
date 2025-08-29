@@ -33,11 +33,11 @@ void main() {
                 SizedBox(height: 20), // spacing between image and text
                 Text('Get Started', style: TextStyle(fontSize: 20)),
                 Container(
-                  height: 100.0,
-                  width: 200.0,
+                  height: 50.0,
+                  width: 100.0,
                   margin: EdgeInsets.only(top: 20.0),
-                  color: Colors.red,
-                  padding: EdgeInsets.all(10.0),
+                  color: Colors.greenAccent,
+                  // padding: EdgeInsets.all(10.0),
                   child: Center(
                     child: Text(
                       'Shop Now',
