@@ -18,15 +18,22 @@ void main() {
           backgroundColor: Colors.teal, // set AppBar bg color
         ),
         body: SafeArea(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Center(
-                child: Image.asset('images/logo.png', width: 250, height: 250),
-              ),
-              SizedBox(height: 20), // spacing between image and text
-              Text('Get Started', style: TextStyle(fontSize: 20)),
-            ],
+          child: Container(
+            color: Colors.white, // set body bg color
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Center(
+                  child: Image.asset(
+                    'images/logo.png',
+                    width: 250,
+                    height: 250,
+                  ),
+                ),
+                SizedBox(height: 20), // spacing between image and text
+                Text('Get Started', style: TextStyle(fontSize: 20)),
+              ],
+            ),
           ),
         ),
       ),
