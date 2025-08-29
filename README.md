@@ -34,7 +34,13 @@ The app is designed to be **secure, user-friendly, and accessible** for both cus
   ### 🔐 Security  
 - Role-based authentication (User / Admin)  
 - Secure payment gateway integration  
-- Encrypted storage for sensitive data  
+- Encrypted storage for sensitive data
+
+  ---
+  
+## 🏗️ Tech Stack  
+
+- **Frontend (App):** Flutter, Dart  
 
 
 ### Devopled by INYA
