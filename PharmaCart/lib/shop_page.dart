@@ -11,7 +11,24 @@ class ShopPage extends StatelessWidget {
         backgroundColor: Colors.teal,
       ),
       body: SafeArea(
-        child: Column(
+        // child: Column(
+        //   mainAxisAlignment: MainAxisAlignment.center,
+        //   children: [
+        //     Container(
+        //       width: 100.0,
+        //       height: 100.0,
+        //       color: Colors.red,
+        //       child: Text("Container 1!"),
+        //     ),
+        //     Container(
+        //       width: 100.0,
+        //       height: 100.0,
+        //       color: Colors.green,
+        //       child: Text("Container 2!"),
+        //     ),
+        //   ],
+        // ),
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
@@ -19,6 +36,13 @@ class ShopPage extends StatelessWidget {
               height: 100.0,
               color: Colors.red,
               child: Text("Container 1!"),
+            ),
+            SizedBox(width: 20.0),
+            Container(
+              width: 100.0,
+              height: 100.0,
+              color: Colors.green,
+              child: Text("Container 2!"),
             ),
           ],
         ),
