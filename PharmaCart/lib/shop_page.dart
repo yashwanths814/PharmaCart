@@ -28,30 +28,35 @@ class ShopPage extends StatelessWidget {
         //     ),
         //   ],
         // ),
-        child: Row(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-              width: 100.0,
-              height: 100.0,
-              color: Colors.red,
-              child: Text("Container 1!"),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: 100.0,
+                  height: 100.0,
+                  color: Colors.red,
+                  child: Center(child: Text("Container 1!")),
+                ),
+                SizedBox(width: 20.0),
+                Container(
+                  width: 100.0,
+                  height: 100.0,
+                  color: Colors.green,
+                  child: Center(child: Text("Container 2!")),
+                ),
+              ],
             ),
-            SizedBox(width: 20.0),
-            Container(
-              width: 100.0,
-              height: 100.0,
-              color: Colors.green,
-              child: Text("Container 2!"),
+            SizedBox(height: 20.0),
+            Text(
+              "Welcome to PharmaCart Shop!",
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
           ],
         ),
       ),
-      // body: const Center(
-      //   child: Text(
-      //     "Welcome to PharmaCart Shop!",
-      //     style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-      //   ),
     );
   }
 }
