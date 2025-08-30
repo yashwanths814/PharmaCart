@@ -10,12 +10,24 @@ class ShopPage extends StatelessWidget {
         title: const Text("Shop Page"),
         backgroundColor: Colors.teal,
       ),
-      body: const Center(
-        child: Text(
-          "Welcome to PharmaCart Shop!",
-          style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+      body: SafeArea(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              width: 100.0,
+              height: 100.0,
+              color: Colors.red,
+              child: Text("Container 1!"),
+            ),
+          ],
         ),
       ),
+      // body: const Center(
+      //   child: Text(
+      //     "Welcome to PharmaCart Shop!",
+      //     style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+      //   ),
     );
   }
 }
