@@ -60,7 +60,7 @@ class ShopPage extends StatelessWidget {
               "Welcome to PharmaCart Shop!",
               style: TextStyle(
                 fontSize: 22,
-                // fontWeight: FontWeight.w900,
+                fontWeight: FontWeight.w900,
                 fontFamily: 'Nunito',
                 fontStyle: FontStyle.italic,
               ),
