@@ -31,6 +31,12 @@ class ShopPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            CircleAvatar(
+              radius: 80,
+              backgroundImage: AssetImage('images/logo.png'),
+            ),
+            SizedBox(height: 20.0),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
