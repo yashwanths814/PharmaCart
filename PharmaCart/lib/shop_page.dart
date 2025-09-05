@@ -64,7 +64,7 @@ class ShopPage extends StatelessWidget {
                 fontFamily: 'Nunito',
                 fontStyle: FontStyle.italic,
               ),
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.center, //text against center
             ),
           ],
         ),
