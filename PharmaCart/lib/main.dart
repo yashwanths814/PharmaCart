@@ -72,10 +72,12 @@ class HomePage extends StatelessWidget {
                   child: const Center(
                     child: Text(
                       'Shop Now',
+                      //Shop Now button text style
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
-                        fontWeight: FontWeight.bold, // Added font weight for better visibility
+                        fontWeight: FontWeight
+                            .bold, // Added font weight for better visibility
                       ),
                     ),
                   ),
