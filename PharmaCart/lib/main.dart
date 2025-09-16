@@ -61,6 +61,7 @@ class HomePage extends StatelessWidget {
                 onTap: () {
                   Navigator.pushNamed(context, '/shop');
                 },
+                // Shop Now button container
                 child: Container(
                   height: 50.0,
                   width: 150.0,
