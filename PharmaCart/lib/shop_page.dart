@@ -65,7 +65,7 @@ class ShopPage extends StatelessWidget {
                 fontStyle: FontStyle.italic,
                 color: Colors.teal,
               ),
-              textAlign: TextAlign.center, //text against center
+              textAlign: TextAlign.center,
             ),
           ],
         ),
